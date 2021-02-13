@@ -28,13 +28,13 @@ const useStyles = makeStyles(theme => ({
 		justifyContent: "center",
 		transform: "translateY(150px)",
 		"& h1": {
-			fontFamily: "OpenSans",
-			marginTop: "-25px"
+			fontFamily: "OracleSansVF",
+			marginTop: "-25px",
+			fontWeight: 800
 		},
 		"& p": {
-			fontWeight: 400,
 			lineHeight: "1.3em",
-			fontFamily: "OpenSans"
+			fontFamily: "OracleSansVF"
 		},
 		"@media (max-width: 1024px)": {
 			transform: "translateY(0px)",
@@ -42,24 +42,29 @@ const useStyles = makeStyles(theme => ({
 		}
 	},
 	pillarTitle: {
-		fontFamily: "OpenSans-Light",
-		fontSize: 25
+		fontFamily: "OracleSansVF",
+		fontSize: 25,
+		fontWeight: 300
 	},
 	subsubTitleStyle: {
 		fontSize: 16,
-		fontFamily: "OpenSans-SemiBold"
+		fontFamily: "OracleSansVF",
+		fontWeight: 600,
+		marginBottom: -10
 	},
 	pillarButton: {
 		width: "auto",
 		height: 37,
-		marginTop: 10,
+		marginTop: 15,
 		backgroundColor: "transparent",
 		border: "1px solid #fff",
 		borderRadius: 5,
 		color: "#fff",
 		cursor: "pointer",
-		fontFamily: "OpenSans",
+		fontFamily: "OracleSansVF",
 		fontSize: 12,
+		fontWeight: 500,
+		padding: 10,
 		"&:hover": {
 			backgroundColor: "#fff",
 			color: "#000"

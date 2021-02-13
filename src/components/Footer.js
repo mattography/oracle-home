@@ -24,13 +24,17 @@ const useStyles = makeStyles(theme => ({
 	footerSection: {
 		display: "flex",
 		flexDirection: "column",
+		"& h3":{
+			fontFamily: "OracleSansVF"
+		},
 		"& ul": {
 			listStyleType: "none",
 			paddingLeft: 0
 		},
 		"& li a": {
 			color: "#fff",
-			textDecoration: "none"
+			textDecoration: "none",
+			fontFamily: "OracleSansVF"
 		},
 		"& li:nth-child(2n)": {
 			padding: "10px 0"

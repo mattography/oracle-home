@@ -20,7 +20,7 @@ const useStyles = makeStyles(theme => ({
 			paddingTop: '50px'
 		},
 		"& li": {
-			fontFamily: "OpenSans",
+			fontFamily: "OracleSansVF",
 			color: "#ffffff",
 			padding: 10,
 			listStyleType: "none"
@@ -88,7 +88,7 @@ const useStyles = makeStyles(theme => ({
 			position: "relative",
 			lineHeight: "1.8em",
 			paddingLeft: 5,
-			fontFamily: "OpenSans",
+			fontFamily: "OracleSansVF",
 			"@media (max-width: 1180px)": {
 				display: "none"
 			}
@@ -120,7 +120,7 @@ const useStyles = makeStyles(theme => ({
 			position: "relative",
 			lineHeight: "1.3em",
 			paddingLeft: 5,
-			fontFamily: "OpenSans",
+			fontFamily: "OracleSansVF",
 			"@media (max-width: 1180px)": {
 				display: "none"
 			}
