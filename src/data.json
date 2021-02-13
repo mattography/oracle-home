@@ -1,0 +1,89 @@
+{
+  "general":{
+     "name" : "Oracle"
+  },
+  "navigation":[
+     {
+        "title":"Products"
+     },
+     {
+        "title":"Resources"
+     },
+     {
+      "title":"Support"
+    },
+    {
+      "title": "Events"
+    },
+    {
+      "title": "Developer"
+    }
+  ],
+  "pillars":[
+    {
+       "title":"Oracle Cloud",
+       "subtitle":"Infrastructure",
+       "subsubTitle":"Highly Automated and Secure",
+       "content":"Oracle Cloud infrastructure combines the elasticity and utility of public cloud with the granular control, security, and predictability of on-premises infrastructure. Simplify operations and spend less with database, platform, and infrastructure services running in public regions and customer data centers.",
+       "buttonText": "Explore products",
+       "background": "https://www.oracle.com/asset/web/i/rh02-panel2.jpg"
+    },
+    {
+       "title":"Oracle Cloud",
+       "subtitle":"Applications",
+       "subsubTitle":"Complete Suite of Integrated Apps",
+       "content":"Streamline your enterprise business process. With ERP Financials, Procurement, Project Portfolio Management and more, you can increase productivity, lower costs, and improve controls.",
+       "buttonText":"Explore products",
+       "background":"https://www.oracle.com/asset/web/i/rh02-panel1.jpg"
+    },
+    {
+     "title":"Try Cloud Free Tier",
+     "subtitle": "",
+     "content":"Oracle Cloud Free Tier lets anyone build, test, and deploy applications on Oracle Cloud--for free. Sign up once, get access to two free tiers",
+     "buttonText":"Start your trial today",
+     "background":"https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONT68BDE31370F54242BBFC7629D7D1A81D/native"
+  }
+ ],
+ "footerSections":[
+   {
+     "header":"Resources for",
+     "links":[
+       "Developers",
+       "Startups",
+       "Students and Educators"
+     ]
+   },
+   {
+     "header":"Partners",
+     "links":[
+       "Oracle PartnerNetwork",
+       "Find a Partner",
+       "Log in to OPN"
+     ]
+   },
+   {
+     "header":"Solutions",
+     "links":[
+       "Artificial Intelligence",
+       "Internet of Things",
+       "Blockchain"
+     ]
+   },
+   {
+     "header":"What's New",
+     "links":[
+       "How we're taking on COVID-19",
+       "Java SE Downloads",
+       "Try Oracle Cloud Free Tier"
+     ]
+   },
+   {
+     "header":"Contact Us",
+     "links":[
+       "US Sales: +1.800.633.0738",
+       "How can we help?",
+       "Subscribe to emails"
+     ]
+   }
+ ]
+}
