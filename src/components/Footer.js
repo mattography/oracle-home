@@ -12,7 +12,7 @@ const useStyles = makeStyles(theme => ({
 			color: "#AAA7A5"
 		},
 		"@media (max-width: 1024px)": {
-			marginTop: 94,
+			marginTop: 100,
 			display: "flex",
 			flexDirection: "column",
 			width: "100%",

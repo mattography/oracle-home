@@ -5,7 +5,10 @@ const useStyles = makeStyles(theme => ({
 		flexGrow: 1,
 		backgroundColor: "#3A3632",
 		height: 70,
-		marginTop: -20
+		marginTop: -20,
+		"@media (max-width: 800px)": {
+			height: 100
+		},
 	},
 	navlinks: {
 		display: "flex",
@@ -13,6 +16,9 @@ const useStyles = makeStyles(theme => ({
 		justifyContent: "center",
 		padding: 20,
 		margin: 10,
+		"@media (max-width: 800px)": {
+			paddingTop: '50px'
+		},
 		"& li": {
 			fontFamily: "OpenSans",
 			color: "#ffffff",
@@ -32,7 +38,10 @@ const useStyles = makeStyles(theme => ({
 		left: 40,
 		width: 130,
 		height: 17,
-		position: "absolute"
+		position: "absolute",
+		"@media (max-width: 800px)": {
+			left: 25
+		}
 	},
 	search: {
 		color: "#fff",
@@ -50,8 +59,11 @@ const useStyles = makeStyles(theme => ({
 	rightNav: {
 		position: "absolute",
 		display: "flex",
-		top: 20,
+		top: 22,
 		right: 40,
+		"@media (max-width: 800px)": {
+			right: 15
+		},
 		"& a:not(:first-child)": {
 			margin: "0 10px"
 		}
