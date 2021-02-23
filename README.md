@@ -1,4 +1,4 @@
-# Oracle Homepage test by Matt Alter
+# Oracle Homepage rebuild
 ## Available Scripts
 
 In the project directory, you can run:
